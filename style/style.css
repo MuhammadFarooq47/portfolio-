@@ -184,12 +184,14 @@ select {
 .aside>.logo>a {
     font-size: 40px;
     color: #302e4d;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     /* background-color: black; */
     display: inline-block;
     position: relative;
-    padding: 0 10px;
+    padding: 5px 10px;
     line-height: 50px;
 }
 
@@ -1236,6 +1238,7 @@ body.dark .portfolio .portfolio-filter button,
 body.dark .home .intro h1,
 body.dark .contact .contact-info-item h4,
 body.dark .aside .logo a,
+body.dark .home-text,
 body.dark .aside .nav li a {
     color: #ffffff;
 }
