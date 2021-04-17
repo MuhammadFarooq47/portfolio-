@@ -10,6 +10,7 @@
 }
 .about .about-text h3 span,
 .intro>p::after,
+.intro2>p::after,
 .about .about-text h3::after,
 .lightbox .lightbox-controls .prev-item .fa,
 .lightbox .lightbox-controls .next-item .fa,

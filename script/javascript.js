@@ -1,3 +1,233 @@
+// Preloader...
+var preLoader = document.getElementById('loading')
+function loader(){
+    preLoader.style.display = 'none';
+}
+
+//Modal Work start here...
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+function modal(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/ui-ux.png";
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+function modal2(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/fruits.jpg";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal3(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/nomru.jpg";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal4(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg4");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/dashboard.jpg";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal5(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg5");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/trons.jpg";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal6(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg6");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/tea.jpg";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal7(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg7");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/sprink.jpg";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal8(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg8");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/security.png";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+function modal9(){
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg9");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = "img/tutor.png";
+      captionText.innerHTML = "<a href='https://www.google.com/' target='_blank'> Open </a>";
+      style.innerHTML = `
+  #caption>a {
+  color: white;
+  }`
+//   document.head.appendChild(style);
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+}
+
+// Modal Work End
+
+
 // PORTFOLIO ITEM FILTER
 const filterContainer = document.querySelector(".portfolio-filter"),
     filterBtn = filterContainer.children,
